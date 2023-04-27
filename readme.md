@@ -9,7 +9,7 @@ This Project is a Code Test
 - Output the number of purchases per each customer per each gaming product.
 
 ## **To run the code **
-```npm run start
+```<p>npm run start</p>
 ```
 
 - or simply run node index.js
