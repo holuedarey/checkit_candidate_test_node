@@ -1,0 +1,25 @@
+{
+  "name": "checkit_candidate_test_node",
+  "version": "1.0.0",
+  "description": "This is a test code for customer, products and customer's purchase ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holuedarey/checkit_candidate_test_node.git"
+  },
+  "keywords": [
+    "customer",
+    "purchase",
+    "products"
+  ],
+  "author": "Ogunwole Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holuedarey/checkit_candidate_test_node/issues"
+  },
+  "homepage": "https://github.com/holuedarey/checkit_candidate_test_node#readme"
+}
