@@ -2,10 +2,10 @@
 const letaShop = require('./data.json');
 
 //array of data for customers 
-const customers = letaShop['customers'] ?? [];
+const customers = letaShop?.customers ?? [];
 
 //array of data for purchases 
-let purchases = letaShop['purchases'];
+let purchases = letaShop?.purchases;
 
 
 /**
@@ -47,8 +47,8 @@ customers?.map((customer) => {
     return letaShop?.products.map((product) =>  {
         const numberOfPurchases =  (purchases?.find((purchase) => customer?.id === purchase?.customerId));
        results.push({
-            "customerName": `${customer['firstname']} ${customer['lastname']}`,
-            "productName": product['name'],
+            "customerName": `${customer?.firstname} ${customer?.lastname}`,
+            "productName": product?.name,
             "numberOfPurchases": numberOfPurchases ? (numberOfPurchases?.purchases.filter(purchaseEntry => purchaseEntry?.productId === product?.id)).length : 0 
           });
     })
